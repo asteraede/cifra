@@ -47,5 +47,10 @@ $(PKG)/$(PRJ)/app/bn \
 $(PKG)/$(PRJ)/app/mpz \
 $(PKG)/$(PRJ)/app/mpn \
 $(PKG)/$(PRJ)/app/mp \
+$(PKG)/$(PRJ)/app/code \
+$(PKG)/$(PRJ)/app/ecc \
+$(PKG)/$(PRJ)/app/rsa \
+$(PKG)/$(PRJ)/app/sea \
+$(PKG)/$(PRJ)/app/sha \
 
 include $(PKG)/$(MAK)/Makedirs

@@ -30,6 +30,7 @@ THIRDPARTY_SRC = ${PKG}/source/thirdparty
 
 CIFRA_PKG = ${PKG}
 CIFRA_SRC = ${CIFRA_PKG}/source
+CIFRA_CRD_SRC = ${CIFRA_PKG}/creds/source
 CIFRA_BLD = ${CIFRA_PKG}/${BLD}/${BUILD_TYPE}
 CIFRA_LIB = ${CIFRA_BLD}/lib
 CIFRA_BIN = ${CIFRA_BLD}/bin
@@ -350,6 +351,7 @@ ${build_cifra_USRDEFINES} \
 #
 cifra_USRINCLUDES += \
 -I${CIFRA_SRC} \
+-I${CIFRA_CRD_SRC} \
 ${crono_USRINCLUDES} \
 ${fila_USRINCLUDES} \
 ${nadir_USRINCLUDES} \

@@ -76,11 +76,6 @@ $${CIFRA_SRC}/xos/app/console/crypto/cipher/main.hpp \
 # sea SOURCES
 #
 sea_SOURCES += \
-$${NADIR_SRC}/xos/console/io.cpp \
-\
-$${NADIR_SRC}/xos/io/sequence.cpp \
-$${NADIR_SRC}/xos/io/reader.cpp \
-\
 $${CIFRA_SRC}/xos/app/console/crypto/cipher/main_opt.cpp \
 $${CIFRA_SRC}/xos/app/console/crypto/cipher/main.cpp \
 
